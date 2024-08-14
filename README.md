@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Horizon
 
-## Getting Started
+Horizon is a sophisticated financial SaaS platform built with Next.js. It enables real-time management of multiple bank accounts, transaction monitoring, money transfers, and comprehensive financial oversight.
 
-First, run the development server:
+## ⚙️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **TypeScript**: Adds static types to JavaScript for improved development and code quality.
+- **Appwrite**: Backend-as-a-service platform for authentication, databases, and storage.
+- **Plaid**: Service for connecting bank accounts and retrieving financial data.
+- **Dwolla**: Payment platform for transferring funds between accounts.
+- **React Hook Form**: Manages form state and validation in React.
+- **Zod**: TypeScript-first schema declaration and validation library.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development.
+- **Chart.js**: Library for creating interactive and customizable charts.
+- **ShadCN**: UI component library for React with a focus on accessibility and design consistency.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔋 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **SSR Authentication**: Utilizes server-side rendering (SSR) to provide secure authentication and performance improvements.
+- **Validations and Authorization**: Ensures user credentials meet security standards and manages user permissions based on roles and authentication status.
 
-## Learn More
+### 2. Connect Banks
 
-To learn more about Next.js, take a look at the following resources:
+- **Plaid Integration**: Allows users to link multiple bank accounts and view real-time financial data, including transactions, balances, and account details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Home Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Financial Overview**: Displays a consolidated view of total balance, recent transactions, and categorized spending from all connected bank accounts.
+- **Data Visualization**: Provides charts and graphs for visualizing key financial metrics and trends.
 
-## Deploy on Vercel
+### 4. My Banks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Bank Listing**: Shows a list of all linked banks with detailed information including balances and account details.
+- **Account Details**: Presents relevant information for each bank account, including transaction histories.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 5. Transaction History
+
+- **Pagination and Filtering**: Allows users to navigate their transaction history with pagination controls and apply filters to sort transactions by date, amount, or category.
+
+### 6. Real-time Updates
+
+- **Dynamic Data Refresh**: Reflects changes instantly across relevant pages when new bank accounts are connected or transactions occur, ensuring users see the most current information.
+
+### 7. Funds Transfer
+
+- **Dwolla Integration**: Facilitates funds transfers between accounts with fields for recipient details and bank IDs.
+- **Validation**: Ensures required fields are completed and correctly formatted before processing transfers.
+
+### 8. Responsiveness
+
+- **Adaptive Design**: Ensures a consistent user experience across various devices, including desktops, tablets, and mobile phones, using responsive design principles.
+
+## 🤸 Quick Start
+
+### Prerequisites
+
+- Git
+- Node.js
+- npm (Node Package Manager)
+
+
