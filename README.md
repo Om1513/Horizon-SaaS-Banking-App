@@ -63,7 +63,9 @@ Horizon is a sophisticated financial SaaS platform built with Next.js. It enable
 
 
 ## Installation
+
 Install the project dependencies using npm:
+
 npm install
 
 ## Set Up Environment Variables
@@ -75,25 +77,41 @@ NEXT_PUBLIC_SITE_URL=
 
 #APPWRITE
 NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+
 NEXT_PUBLIC_APPWRITE_PROJECT=
+
 APPWRITE_DATABASE_ID=
+
 APPWRITE_USER_COLLECTION_ID=
+
 APPWRITE_BANK_COLLECTION_ID=
+
 APPWRITE_TRANSACTION_COLLECTION_ID=
+
 APPWRITE_SECRET=
 
 #PLAID
+
 PLAID_CLIENT_ID=
+
 PLAID_SECRET=
+
 PLAID_ENV=
+
 PLAID_PRODUCTS=
+
 PLAID_COUNTRY_CODES=
+
 
 #DWOLLA
 DWOLLA_KEY=
+
 DWOLLA_SECRET=
+
 DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
+
 DWOLLA_ENV=sandbox
+
 
 Replace the placeholder values with your actual credentials obtained from Appwrite, Plaid, and Dwolla.
 
@@ -101,6 +119,7 @@ Replace the placeholder values with your actual credentials obtained from Appwri
 To start the development server, run:
 
 npm run dev
+
 Open http://localhost:3000 in your browser to view the project.
 
 
